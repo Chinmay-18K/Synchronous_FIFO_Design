@@ -1,0 +1,46 @@
+                 $time data_in/data_out
+                   5
+ Scenario 1
+                  15data_in = 1
+                  35data_in = 10
+                  55data_in = 100
+                  85read_data data_out = 1
+                 105read_data data_out = 10
+                 125read_data data_out = 100
+                 125
+ Scenario 2
+                 135data_in = 1
+                 165read_data data_out = 1
+                 175data_in = 2
+                 205read_data data_out = 2
+                 215data_in = 4
+                 245read_data data_out = 4
+                 255data_in = 8
+                 285read_data data_out = 8
+                 295data_in = 16
+                 325read_data data_out = 16
+                 335data_in = 32
+                 365read_data data_out = 32
+                 375data_in = 64
+                 405read_data data_out = 64
+                 415data_in = 128
+                 445read_data data_out = 128
+                 445
+ Scenario 3
+                 455data_in = 1
+                 475data_in = 2
+                 495data_in = 4
+                 515data_in = 8
+                 535data_in = 16
+                 555data_in = 32
+                 575data_in = 64
+                 595data_in = 128
+                 625read_data data_out = 1
+                 645read_data data_out = 2
+                 665read_data data_out = 4
+                 685read_data data_out = 8
+                 705read_data data_out = 16
+                 725read_data data_out = 32
+                 745read_data data_out = 64
+                 765read_data data_out = 128
+$finish called at time : 825 ns
